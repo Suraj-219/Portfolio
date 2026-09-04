@@ -80,11 +80,11 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Health-care Managemment System",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "a full-stack healthcare platform with responsive patient and admin dashboards for managing healthcare services.",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+    image: "/assets/projects/health-care.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -96,11 +96,11 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "NER Safeslope",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "Real-time monitoring, predictive AI, and community-powered reporting to protect lives across India's North Eastern Region — where landslides strike without warning.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
+    image: "/assets/projects/ner-safeslope.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -111,34 +111,34 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "AI SEO Analyzer",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "AI-powered SEO auditing platform to analyze websites and generate actionable optimization insights.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/ai-seo-analyzer.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "Express.js" },
+      { id: 3, name: "MongoDB Server" },
+      { id: 4, name: "Gemini AI" },
     ],
   },
-  {
-    id: 4,
-    name: "Electronics & Gadgets Store",
-    description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/electronics-store.jpg",
-    bgImage: "/assets/backgrounds/poster.jpg",
-    frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   name: "Electronics & Gadgets Store",
+  //   description:
+  //     "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+  //   href: "",
+  //   image: "/assets/projects/electronics-store.jpg",
+  //   bgImage: "/assets/backgrounds/poster.jpg",
+  //   frameworks: [
+  //     { id: 1, name: "Vue.js" },
+  //     { id: 2, name: "Laravel" },
+  //     { id: 3, name: "MySQL" },
+  //     { id: 4, name: "SCSS" },
+  //   ],
+  // },
   {
     id: 5,
     name: "Home Decor Marketplace",
