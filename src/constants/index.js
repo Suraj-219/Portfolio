@@ -83,7 +83,7 @@ export const projects = [
     name: "Health-care Managemment System",
     description:
       "a full-stack healthcare platform with responsive patient and admin dashboards for managing healthcare services.",
-    href: "",
+    href: "https://health-care-frontend-dun.vercel.app/",
     image: "/assets/projects/health-care.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
@@ -99,7 +99,7 @@ export const projects = [
     name: "NER Safeslope",
     description:
       "Real-time monitoring, predictive AI, and community-powered reporting to protect lives across India's North Eastern Region — where landslides strike without warning.",
-    href: "",
+    href: "https://ner-safeslope.vercel.app/",
     image: "/assets/projects/ner-safeslope.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
@@ -114,7 +114,7 @@ export const projects = [
     name: "AI SEO Analyzer",
     description:
       "AI-powered SEO auditing platform to analyze websites and generate actionable optimization insights.",
-    href: "",
+    href: "https://seo-rank-tracker-lake.vercel.app/",
     image: "/assets/projects/ai-seo-analyzer.jpg",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
