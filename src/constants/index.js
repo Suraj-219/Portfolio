@@ -99,7 +99,7 @@ export const projects = [
     name: "NER Safeslope",
     description:
       "Real-time monitoring, predictive AI, and community-powered reporting to protect lives across India's North Eastern Region — where landslides strike without warning.",
-    href: "https://ner-safeslope.vercel.app/",
+    href: "https://ner-safeslope01.vercel.app/",
     image: "/assets/projects/ner-safeslope.jpg",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
