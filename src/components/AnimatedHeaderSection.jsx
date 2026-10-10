@@ -13,6 +13,7 @@ const AnimatedHeaderSection = ({
   titleColor,
   delay = 0,
   withScrollTrigger = false,
+  animate = true,
 }) => {
   const effectiveSubtitleColor = subtitleColor || textColor;
   const effectiveTitleColor = titleColor || textColor;
@@ -21,6 +22,8 @@ const AnimatedHeaderSection = ({
   const computedTitleParts =
     titleParts || (title.includes(" ") ? title.split(" ") : [title]);
   useGSAP(() => {
+    if (!animate) return;
+
     const tl = gsap.timeline({
       scrollTrigger: withScrollTrigger
         ? {
@@ -44,7 +47,7 @@ const AnimatedHeaderSection = ({
       },
       "<+0.2",
     );
-  }, []);
+  }, [animate]);
   return (
     <div ref={contextRef}>
       <div style={{ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)" }}>
@@ -83,6 +86,7 @@ const AnimatedHeaderSection = ({
           <AnimatedTextLines
             text={text}
             className={`font-light uppercase value-text-responsive ${textColor}`}
+            animate={animate}
           />
         </div>
       </div>

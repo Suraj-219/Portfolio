@@ -85,7 +85,7 @@ export const projects = [
       "a full-stack healthcare platform with responsive patient and admin dashboards for managing healthcare services.",
     href: "https://health-care-frontend-dun.vercel.app/",
     image: "/assets/projects/health-care.jpg",
-    bgImage: "/assets/backgrounds/blanket.jpg",
+    bgImage: "/assets/backgrounds/health-background.jpg", 
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
@@ -101,7 +101,7 @@ export const projects = [
       "Real-time monitoring, predictive AI, and community-powered reporting to protect lives across India's North Eastern Region — where landslides strike without warning.",
     href: "https://ner-safeslope01.vercel.app/",
     image: "/assets/projects/ner-safeslope.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    bgImage: "/assets/backgrounds/ner-background.jpg",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
@@ -116,7 +116,7 @@ export const projects = [
       "AI-powered SEO auditing platform to analyze websites and generate actionable optimization insights.",
     href: "https://seo-rank-tracker-lake.vercel.app/",
     image: "/assets/projects/ai-seo-analyzer.jpg",
-    bgImage: "/assets/backgrounds/map.jpg",
+    bgImage: "/assets/backgrounds/seo-background.jpg",
     frameworks: [
       { id: 1, name: "React.js" },
       { id: 2, name: "Express.js" },
@@ -146,7 +146,7 @@ export const projects = [
       "Real-time social networking platform that enables users to connect, communicate, and interact through live messaging and seamless user authentication.",
     href: "https://meet-up-xyjv.vercel.app/",
     image: "/assets/projects/meet-up.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
+    bgImage: "/assets/backgrounds/meet-background.jpg",
     frameworks: [
       { id: 1, name: "React.js" },
       { id: 2, name: "Express.js" },
@@ -161,7 +161,7 @@ export const projects = [
       "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
     href: "",
     image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
+    bgImage: "/assets/backgrounds/game-background.jpg",
     frameworks: [
       { id: 1, name: "Svelte" },
       { id: 2, name: "Node.js" },
