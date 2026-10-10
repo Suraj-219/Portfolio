@@ -141,17 +141,17 @@ export const projects = [
   // },
   {
     id: 5,
-    name: "Home Decor Marketplace",
+    name: "MeetUp",
     description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/home-decor-store.jpg",
+      "Real-time social networking platform that enables users to connect, communicate, and interact through live messaging and seamless user authentication.",
+    href: "https://meet-up-xyjv.vercel.app/",
+    image: "/assets/projects/meet-up.jpg",
     bgImage: "/assets/backgrounds/table.jpg",
     frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "Express.js" },
+      { id: 3, name: "Neon PostgreSQL" },
+      { id: 4, name: "Socket.IO" },
     ],
   },
   {
